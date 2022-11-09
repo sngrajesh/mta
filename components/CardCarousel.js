@@ -1,10 +1,10 @@
 /* eslint-disable @next/next/no-img-element */
 import React, { useState, useRef, useEffect } from "react";
 const images = [
-  "https://coolstockphoto.com/wp-content/uploads/2022/08/Antenna-Tower-Art-Background-with-Copy-Space.jpg",
-  "https://static1.bigstockphoto.com/8/5/2/large1500/258093196.jpg",
-  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqodObW46e9TIvfQG5wuVzaN-Zsd9zXSAZkw&usqp=CAU",
-  "https://media.wired.com/photos/5f247a75ce3451c46354188f/191:100/w_2291,h_1199,c_limit/Sec_groundstation_498384831.jpg",
+  "/backgrounds/wall1.jpg",
+  "/backgrounds/wall2.png",
+  "/backgrounds/wall3.jpg",
+  "/backgrounds/wall4.png",
 ];
 
 const CardCarousel = () => {

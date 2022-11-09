@@ -14,12 +14,9 @@ const Navbar = () => {
                   alt=""
                   className="h-16 w-16  bg-gray-100  rounded-full  p-2"
                 />
-                <span className="ml-3 text-xl">
-                  Antennas
-                </span>
+                <span className="ml-3 text-xl">Antennas</span>
               </div>
             </Link>
-         
           </div>
           <nav
             id="link_container"
@@ -36,13 +33,18 @@ const Navbar = () => {
               </a>
             </Link>
 
+            <Link href={"/calculator"}>
+              <a className="mr-5 hover:text-gray-900 hover:border-b-2 border-purple-600 text-gray-700 ">
+                Calculator
+              </a>
+            </Link>
+
             <Link href={"/about"}>
               <a className="mr-0 hover:text-gray-900 hover:border-b-2 border-purple-600 text-gray-700 ">
                 About
               </a>
             </Link>
           </nav>
-          
         </div>
       </header>
     </>

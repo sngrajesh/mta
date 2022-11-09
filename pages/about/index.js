@@ -5,7 +5,7 @@ import React from "react";
 const index = () => {
   return (
     <div className="w-full flex flex-col items-center justify-center mx-0 px-2 py-12">
-       <Head>
+      <Head>
         <title> About </title>
         <meta
           name="description"
@@ -24,7 +24,9 @@ const index = () => {
         We have established a Digital Content Marketplace for eBooks.
       </p>
 
-      <small>Rajesh Singh</small>
+      <small className="text-center mt-4 text-base w-fit p-3 bg-gray-200 rounded-md">
+        Rajesh Singh
+      </small>
     </div>
   );
 };
